@@ -51,7 +51,7 @@ def get_history_retriever():
         "Given a chat history and the latest user question "
         "which might reference context in the history, "
         "formulate a standalone question which cand be understand "
-        "without the chat history. Do NOT the question, "
+        "without the chat history. Do not answer the question. Return only the rewritten search query."
         "just reformulate it if needed and otherwise return it as is."
     )
 
